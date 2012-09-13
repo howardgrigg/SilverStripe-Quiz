@@ -1,0 +1,211 @@
+#quiz{
+	position: relative;
+}
+#quiz h3{
+	text-align: center;
+	padding-top: 30px;
+	color: #151515;
+}
+#question-image {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+#question-image img {
+	float: none;
+}
+#quiz ul{
+	margin: 0px auto;
+	width: 80%;
+}
+#quiz ul li {
+	list-style-type: none;
+	display: block;
+	float: left;
+	width: 45%;
+	min-height: 150px;
+	background-color: #f7f7f7;
+	padding: 5px;
+	text-align: center;
+	
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+	
+	display:-moz-box;
+	-moz-box-orient:horizontal;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+	
+	display:box;
+	box-orient:horizontal;
+	box-pack:center;
+	box-align:center;
+	margin: 5px;
+	
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+	-moz-box-shadow: 0px 0px 5px #000000;
+	-webkit-box-shadow: 0px 0px 5px #000000;
+	box-shadow: 0px 0px 5px #000000;
+	/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+
+}
+.explain{
+  display: none;
+  color: #fff;
+}
+#quiz ul li.marked.correct{
+  background: #00b942;
+}
+#quiz ul li.marked.incorrect{
+  background: #dd1000;
+}
+
+.pagination{
+  clear: both;
+  margin: 0px auto;
+  text-align: center;
+  width: 100%;
+  padding-top: 30px;  
+}
+.next-holder{
+	width: 97%;
+	display: block;
+	padding-top: 350px;
+}
+#next{
+	background-color: #eee;
+	padding: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	border-style: none;
+	display: block;
+	clear: left;
+	width: 50px;
+	text-align: center;
+	margin: 0 auto;
+}
+#next.ready{
+  	color: #fff;
+	-moz-box-shadow: 0px 0px 5px #000000;
+	-webkit-box-shadow: 0px 0px 5px #000000;
+	box-shadow: 0px 0px 5px #000000;
+	background: #00b942;
+	font-weight: bold;
+}
+
+
+.CompositeField.composite.nolabel {
+	width: 48%;
+	float: left;
+	padding: 20px 5px 5px;
+	border-top: 1px solid #9f9f9f;
+}
+
+#Form_addQuestionForm_action_doAddQuestion {
+	width: 150px;
+	height: 40px;
+}
+
+#Form_addQuestionForm .Actions{
+	text-align: center;
+	font-size: 100%;
+}
+#Form_addQuestionForm{
+	width: 500px;
+	max-width: 100%;
+}
+#Form_addQuestionForm label.left{
+	max-width: 100%;
+}
+#Form_addQuestionForm .middleColumn{
+	width: 100% !important;
+}
+.CompositeField.composite.nolabel .field.checkbox {
+	margin-left: 85px;
+}
+
+.CompositeField.composite.nolabel .middleColumn{
+	width: 100% !important;
+	float: left;
+}
+.CompositeField.composite.nolabel label.left
+{
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+#show-questions {
+	width: 60px;
+	text-align: center;
+	position: absolute;
+	float: right;
+	display: block;
+	-webkit-border-radius: 0px 0px 0px 200px;
+	border-radius: 0px 0px 0px 200px;
+	background-color: #f7f7f7;
+	padding: 15px 0 25px 20px;
+	top: 0;
+	right: 0;
+	border: 1px solid #ddd;
+	display: none;
+}
+#add-question {
+	max-width: 500px;
+	margin: 0px auto;
+	padding: 20px;
+	border-style: none;
+	border-width: 1px;
+	display: none;
+	clear: both;
+}
+.add-button {
+	display: block;
+	border-top: 1px solid #00b942;
+	border-bottom: 1px solid #00b942;
+	padding: 10px;
+	float: right;
+	background-color: #f7f7f7;
+	color: #00b942;
+	clear: both;
+}
+#short-answer-answer{
+  display: block;
+  width: 300px;
+  min-height: 60px;
+  margin: 50px auto 0px;
+	border: 1px solid #e5e5e5;
+	text-align: center;
+	background: #00b942;
+	padding: 40px 10px;
+	font-size: 1.1em;
+  display: none;
+	color: #fff;
+}
+#Form_addQuestionForm .answertab {
+	width: 100%;
+	border: none;
+	padding: 0px;
+}
+.quizanswertab{
+  width: 45%;
+  float: left;
+	text-align: center;
+	padding: 10px 0px;
+	background-color: #eaeced;
+	-webkit-border-radius: 20px 20px 0px 0px;
+border-radius: 20px 20px 0px 0px;
+	margin-left: 20px;
+}
+.singletab{
+	display: none;
+}
+#next.no-more{
+	width: 150px;
+}
