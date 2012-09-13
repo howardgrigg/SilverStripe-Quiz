@@ -7,17 +7,6 @@ This is a simple module that adds a QuizPage to your site. The quiz can consist 
 
 For a quick rundown have a [look at the video](http://youtu.be/3nHDwf4YILI).
 
-
-## ScreenShots 
-_Add Question Form:_
-![Add Question Form](https://raw.github.com/howardgrigg/SilverStripe-Quiz/master/git/Screenshots/AddQuestion.jpg "Add Question Form")
-_Image Question:_
-![Image Question](https://raw.github.com/howardgrigg/SilverStripe-Quiz/master/git/Screenshots/Image.jpg "Image question")
-_Multi Choice Question:_
-![Multi Choice](https://raw.github.com/howardgrigg/SilverStripe-Quiz/master/git/Screenshots/Multichoice.jpg "Multichoice question")
-_Short Answer Question:_
-![Short Answer](https://raw.github.com/howardgrigg/SilverStripe-Quiz/master/git/Screenshots/ShortAnswer.jpg "Short answer Question")
-
 ## Installation
  
 Requires SilverStripe 3+
@@ -28,6 +17,25 @@ Requires SilverStripe 3+
 This was built to go inside the "Simple" theme that ships with SilverStripe but the CSS can easily be overridden to theme it to any site you're building.
 
 Pull requests welcome :)
+
+## ScreenShots 
+
+_Add Question Form:_
+
+![Add Question Form](https://raw.github.com/howardgrigg/SilverStripe-Quiz/master/git/Screenshots/AddQuestion.jpg "Add Question Form")
+
+_Image Question:_
+
+![Image Question](https://raw.github.com/howardgrigg/SilverStripe-Quiz/master/git/Screenshots/Image.jpg "Image question")
+
+_Multi Choice Question:_
+
+![Multi Choice](https://raw.github.com/howardgrigg/SilverStripe-Quiz/master/git/Screenshots/Multichoice.jpg "Multichoice question")
+
+_Short Answer Question:_
+
+![Short Answer](https://raw.github.com/howardgrigg/SilverStripe-Quiz/master/git/Screenshots/ShortAnswer.jpg "Short answer Question")
+
 
 ## License
 
