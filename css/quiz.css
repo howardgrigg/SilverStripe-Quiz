@@ -175,6 +175,18 @@
 	color: #00b942;
 	clear: both;
 }
+#click-to-reveal{
+  display: block;
+  width: 300px;
+  height: 60px;
+  margin: 50px auto 0px;
+	border: 1px solid #e5e5e5;
+	text-align: center;
+	background-color: #f7f7f7;
+	padding-top: 40px;
+	font-size: 1.1em;
+	font-variant: small-caps;
+}  
 #short-answer-answer{
   display: block;
   width: 300px;
