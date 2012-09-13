@@ -30,6 +30,7 @@ class QuizQuestion extends DataObject {
 		
 		$f = new FieldList(
 		  new TextField("Question"),
+		  new TextField("ShortAnswer"),
 		  new UploadField("Image"),
 		  
 		  $AnswersGrid = new GridField('Answers', 'Answers', $this->Answers(), $AnswersGridConfig)
