@@ -10,13 +10,13 @@ For a quick rundown have a [look at the video](http://youtu.be/3nHDwf4YILI).
 
 ## ScreenShots 
 _Add Question Form:_
-![Add Question Form](https://raw.github.com/howardgrigg/SilverStripe-Quiz/master/git/AddQuestion.jpg "Add Question Form")
+![Add Question Form](https://raw.github.com/howardgrigg/SilverStripe-Quiz/master/git/Screenshots/AddQuestion.jpg "Add Question Form")
 _Image Question:_
-![Image Question](https://raw.github.com/howardgrigg/SilverStripe-Quiz/master/git/Image.jpg "Image question")
+![Image Question](https://raw.github.com/howardgrigg/SilverStripe-Quiz/master/git/Screenshots/Image.jpg "Image question")
 _Multi Choice Question:_
-![Multi Choice](https://raw.github.com/howardgrigg/SilverStripe-Quiz/master/git/Multichoice.jpg "Multichoice question")
+![Multi Choice](https://raw.github.com/howardgrigg/SilverStripe-Quiz/master/git/Screenshots/Multichoice.jpg "Multichoice question")
 _Short Answer Question:_
-![Short Answer](https://raw.github.com/howardgrigg/SilverStripe-Quiz/master/git/ShortAnswer.jpg "Short answer Question")
+![Short Answer](https://raw.github.com/howardgrigg/SilverStripe-Quiz/master/git/Screenshots/ShortAnswer.jpg "Short answer Question")
 
 ## Installation
  
